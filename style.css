@@ -1,0 +1,160 @@
+*{
+    font-family: Tahoma;
+    color: black;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 30%;
+}
+
+input{
+    background: transparent;
+    border: transparent;
+    border-radius: 20px;
+    outline: none;
+}
+
+.main{
+    width: 500px;
+    height: 500px;  
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    place-items: center; 
+    /* border: 2px solid black; */
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.fName{
+    width: 140px;
+    height: 35px;
+    display: flex;
+    justify-content: center; 
+    place-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fInput{
+    width: 120px;
+    margin-left: 20px;
+}
+
+.sName{
+    width: 140px;
+    height: 35px;
+    display: flex;
+    justify-content: center; 
+    place-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sInput{
+    width: 120px;
+    margin-left: 20px;
+}
+
+.email{
+    width: 290px;
+    height: 35px;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.tInput{
+    width: 270px;
+    margin-left: 10px;
+}
+
+.pass{
+    width: 290px;
+    height: 35px;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.heading{
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: black;
+}
+
+.login{
+    margin-top: 25px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    border-radius: 20px;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+.caution{
+    margin-top: 20px;
+    color: white;
+}   
+
+.confirmPass{
+    width: 290px;
+    height: 35px;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.phone{
+    width: 290px;
+    height: 35px;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.signBtn{
+    margin-top: 20px;
+}
